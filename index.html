@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloud & Azure Static Web App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      color: #0078d4;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Understanding Cloud & Deploying a Static Web App to Azure</h1>
+<ul>
+    <li>Usman</li>
+    <li>Kashan</li>
+    <li>Abdullah</li>
+</ul>
+  <section>
+    <h2>🌩️ What is Cloud Computing?</h2>
+    <p>
+      Cloud computing refers to delivering computing services—like servers, storage, databases, networking, software, and more—over the Internet (“the cloud”). Instead of owning and maintaining physical data centers or servers, users can access technology services on demand from a cloud provider like Microsoft Azure.
+    </p>
+    <ul>
+      <li><strong>Scalable:</strong> Resources scale with your needs.</li>
+      <li><strong>Cost-effective:</strong> Pay only for what you use.</li>
+      <li><strong>Reliable:</strong> High availability and data backup.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🚀 How to Upload a Static Web App to Azure</h2>
+    <p>
+      Azure Static Web Apps is a service that automatically builds and deploys full-stack web apps to Azure from a GitHub repository.
+    </p>
+
+    <h3>Steps to Deploy:</h3>
+    <ol>
+      <li>Create a <strong>GitHub repository</strong> with your static site (e.g., this <code>index.html</code> file).</li>
+      <li>Push your code to GitHub.</li>
+      <li>Go to the <a href="https://portal.azure.com/" target="_blank">Azure Portal</a> and search for <strong>Static Web Apps</strong>.</li>
+      <li>Click <strong>+ Create</strong>, fill in your resource details.</li>
+      <li>Connect your GitHub account and select the repository and branch.</li>
+      <li>Azure will set up a GitHub Action to build and deploy your site automatically.</li>
+      <li>After deployment, you'll get a live URL for your static website.</li>
+    </ol>
+
+    <p>
+      👉 For detailed instructions, visit the official guide:
+      <a href="https://learn.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript" target="_blank">
+        Azure Static Web Apps - Get Started
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Cloud Learning | Powered by Azure</p>
+  </footer>
+</body>
+</html>
